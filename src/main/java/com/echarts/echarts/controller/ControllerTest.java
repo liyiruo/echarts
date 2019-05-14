@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ControllerTest {
     @Autowired
     TestServce testServce;
-    @RequestMapping("/user/{id}")
+    @RequestMapping("user/{id}")
     public String selectOne(@PathVariable("id") int id,Model map) {
         User user = testServce.selectOne(id);
 

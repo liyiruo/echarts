@@ -15,26 +15,29 @@ myhtml
     <div id="main3"></div>
 </div>
 </body>
-<script th:src="@{static/js/echarts.min.js}"></script>
+<script th:src="@{/js/echarts.min.js}"></script>
 <style>
     #main{
-        height: 100%;
-        width: 100%;
-        background-image: url("static/imag/my.jpg");
+        height: 1000px;
+        width: 1000px;
     }
     #main2{
-        height: 100px;
-        width: 100px;
+        height: 500px;
+        width: 500px;
         background-color: red;
         float: left;
     }
     #main3{
-        height: 100px;
-        width: 100px;
+        height: 500px;
+        width: 500px;
         background-color: greenyellow;
         float: right;
     }
 </style>
-<script th:src="@{static/js/main2.js}"></script>
-<script th:src="@{static/js/main3.js}"></script>
+<script th:src="@{/js/main2.js}"></script>
+<script th:src="@{/js/main3.js}"></script>
+
+<script>
+
+</script>
 </html>
